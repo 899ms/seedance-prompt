@@ -1,11 +1,17 @@
 ---
-name: seedance-prompt
-description: 为AI视频生成模型（Seedance、Sora、Kling、Runway、Veo等）撰写电影级、超写实、纪录片质感的结构化视频提示词。当用户想生成AI视频提示词、优化现有视频提示词、追求"真实感""家庭录像感""去AI感"的视频效果，或提到Seedance、文生视频、视频prompt时，务必使用此skill。即使用户只是描述了一个想拍的场景或氛围，也应使用此skill将其转化为完整提示词。
+name: realistic-video-prompting
+description: 为AI视频生成模型（Seedance、Sora、Kling、Runway、Veo等）撰写真实感、去AI感、纪录片质感的结构化视频提示词。当用户想生成AI视频提示词、优化现有视频提示词、追求"真实感""家庭录像感""手机随拍感""DV感""监控录像感"的视频效果，或提到Seedance、文生视频、视频prompt时，务必使用此skill。即使用户只是描述了一个想拍的场景或氛围，也应使用此skill将其转化为完整提示词。
+version: 1.1.0
+author: zhouwei713
+license: MIT
+metadata:
+  hermes:
+    tags: [ai-video, prompt, realistic-video, seedance, kling, veo, runway, sora]
 ---
 
-# Seedance级视频提示词生成器
+# 真实视频提示词生成器
 
-把用户的一个模糊想法（"我想要一段韩国社区的日常感视频"）转化为高密度、可执行、去AI感的结构化视频提示词。
+把用户的一个模糊想法（"我想要一段韩国社区的日常感视频"）转化为高密度、可执行、去AI感、像真实素材拍出来的结构化视频提示词。
 
 ## 核心哲学
 
